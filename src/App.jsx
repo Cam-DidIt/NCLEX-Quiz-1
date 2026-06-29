@@ -150,8 +150,13 @@ function SetupScreen({ selectedTopics, toggleTopic, onStart, isLoading, error, s
             Med-Surg NCLEX Prep
           </h1>
           <p style={{ margin: 0, color: C.muted, fontSize: 15, lineHeight: 1.5 }}>
-            AI-generated questions written in a real Med-Surg nurse's clinical voice
+            AI-generated questions aligned with NCSBN NCLEX-RN standards
           </p>
+          <div style={{ margin:"1rem auto 0", maxWidth:520, background:"#FFF7ED", border:"1px solid #FED7AA", borderRadius:10, padding:"10px 14px" }}>
+  <p style={{ margin:0, fontSize:12, color:"#92400E", lineHeight:1.6 }}>
+    <strong>Disclaimer:</strong> This tool is intended as a supplemental study aid only and does not replace NCLEX-approved review courses, licensed educators, or authoritative nursing textbooks. Questions are AI-generated and aligned with NCSBN guidelines but have not been independently verified by a testing authority. Always confirm clinical information with accredited nursing resources such as Saunders, ATI, or your nursing program faculty.
+  </p>
+</div>
         </div>
 
         {/* Session stats (if returning) */}
